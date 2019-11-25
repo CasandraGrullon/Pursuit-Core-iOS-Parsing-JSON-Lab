@@ -1,4 +1,4 @@
-{
+[{
   "hex": {
     "value": "#0047AB",
     "clean": "0047AB"
@@ -79,4 +79,415 @@
     }
   },
   "_embedded": {}
+},
+{
+    "hex": {
+        "value": "#0A4711",
+        "clean": "0A4711"
+    },
+    "rgb": {
+        "fraction": {
+            "r": 0.0392156862745098,
+            "g": 0.2784313725490196,
+            "b": 0.06666666666666667
+        },
+        "r": 10,
+        "g": 71,
+        "b": 17,
+        "value": "rgb(10, 71, 17)"
+    },
+    "hsl": {
+        "fraction": {
+            "h": 0.3524590163934427,
+            "s": 0.7530864197530865,
+            "l": 0.1588235294117647
+        },
+        "h": 127,
+        "s": 75,
+        "l": 16,
+        "value": "hsl(127, 75%, 16%)"
+    },
+    "hsv": {
+        "fraction": {
+            "h": 0.3524590163934427,
+            "s": 0.8591549295774648,
+            "v": 0.2784313725490196
+        },
+        "value": "hsv(127, 86%, 28%)",
+        "h": 127,
+        "s": 86,
+        "v": 28
+    },
+    "name": {
+        "value": "Dark Fern",
+        "closest_named_hex": "#0A480D",
+        "exact_match_name": false,
+        "distance": 25
+    },
+    "cmyk": {
+        "fraction": {
+            "c": 0.8591549295774649,
+            "m": 0,
+            "y": 0.7605633802816902,
+            "k": 0.7215686274509804
+        },
+        "value": "cmyk(86, 0, 76, 72)",
+        "c": 86,
+        "m": 0,
+        "y": 76,
+        "k": 72
+    },
+    "XYZ": {
+        "fraction": {
+            "X": 0.1277729411764706,
+            "Y": 0.21228470588235293,
+            "Z": 0.09731254901960784
+        },
+        "value": "XYZ(13, 21, 10)",
+        "X": 13,
+        "Y": 21,
+        "Z": 10
+    },
+    "image": {
+        "bare": "http://www.thecolorapi.com/id?format=svg&named=false&hex=0A4711",
+        "named": "http://www.thecolorapi.com/id?format=svg&hex=0A4711"
+    },
+    "contrast": {
+        "value": "#FFFFFF"
+    },
+    "_links": {
+        "self": {
+            "href": "/id?hex=0A4711"
+        }
+    },
+    "_embedded": {}
+},
+{
+    "hex": {
+        "value": "#511764",
+        "clean": "511764"
+    },
+    "rgb": {
+        "fraction": {
+            "r": 0.3176470588235294,
+            "g": 0.09019607843137255,
+            "b": 0.39215686274509803
+        },
+        "r": 81,
+        "g": 23,
+        "b": 100,
+        "value": "rgb(81, 23, 100)"
+    },
+    "hsl": {
+        "fraction": {
+            "h": 0.7922077922077921,
+            "s": 0.6260162601626016,
+            "l": 0.2411764705882353
+        },
+        "h": 285,
+        "s": 63,
+        "l": 24,
+        "value": "hsl(285, 63%, 24%)"
+    },
+    "hsv": {
+        "fraction": {
+            "h": 0.7922077922077921,
+            "s": 0.77,
+            "v": 0.39215686274509803
+        },
+        "value": "hsv(285, 77%, 39%)",
+        "h": 285,
+        "s": 77,
+        "v": 39
+    },
+    "name": {
+        "value": "Scarlet Gum",
+        "closest_named_hex": "#431560",
+        "exact_match_name": false,
+        "distance": 338
+    },
+    "cmyk": {
+        "fraction": {
+            "c": 0.18999999999999992,
+            "m": 0.7699999999999999,
+            "y": 0,
+            "k": 0.607843137254902
+        },
+        "value": "cmyk(19, 77, 0, 61)",
+        "c": 19,
+        "m": 77,
+        "y": 0,
+        "k": 61
+    },
+    "XYZ": {
+        "fraction": {
+            "X": 0.23403607843137253,
+            "Y": 0.16035372549019608,
+            "Z": 0.38962705882352944
+        },
+        "value": "XYZ(23, 16, 39)",
+        "X": 23,
+        "Y": 16,
+        "Z": 39
+    },
+    "image": {
+        "bare": "http://www.thecolorapi.com/id?format=svg&named=false&hex=511764",
+        "named": "http://www.thecolorapi.com/id?format=svg&hex=511764"
+    },
+    "contrast": {
+        "value": "#FFFFFF"
+    },
+    "_links": {
+        "self": {
+            "href": "/id?hex=511764"
+        }
+    },
+    "_embedded": {}
+},
+{
+    "hex": {
+        "value": "#5B1402",
+        "clean": "5B1402"
+    },
+    "rgb": {
+        "fraction": {
+            "r": 0.3568627450980392,
+            "g": 0.0784313725490196,
+            "b": 0.00784313725490196
+        },
+        "r": 91,
+        "g": 20,
+        "b": 2,
+        "value": "rgb(91, 20, 2)"
+    },
+    "hsl": {
+        "fraction": {
+            "h": 0.0337078651685393,
+            "s": 0.9569892473118278,
+            "l": 0.1823529411764706
+        },
+        "h": 12,
+        "s": 96,
+        "l": 18,
+        "value": "hsl(12, 96%, 18%)"
+    },
+    "hsv": {
+        "fraction": {
+            "h": 0.0337078651685393,
+            "s": 0.978021978021978,
+            "v": 0.3568627450980392
+        },
+        "value": "hsv(12, 98%, 36%)",
+        "h": 12,
+        "s": 98,
+        "v": 36
+    },
+    "name": {
+        "value": "Indian Tan",
+        "closest_named_hex": "#4D1E01",
+        "exact_match_name": false,
+        "distance": 585
+    },
+    "cmyk": {
+        "fraction": {
+            "c": 0,
+            "m": 0.7802197802197804,
+            "y": 0.9780219780219781,
+            "k": 0.6431372549019607
+        },
+        "value": "cmyk(0, 78, 98, 64)",
+        "c": 0,
+        "m": 78,
+        "y": 98,
+        "k": 64
+    },
+    "XYZ": {
+        "fraction": {
+            "X": 0.17663294117647058,
+            "Y": 0.1325294117647059,
+            "Z": 0.023691372549019606
+        },
+        "value": "XYZ(18, 13, 2)",
+        "X": 18,
+        "Y": 13,
+        "Z": 2
+    },
+    "image": {
+        "bare": "http://www.thecolorapi.com/id?format=svg&named=false&hex=5B1402",
+        "named": "http://www.thecolorapi.com/id?format=svg&hex=5B1402"
+    },
+    "contrast": {
+        "value": "#FFFFFF"
+    },
+    "_links": {
+        "self": {
+            "href": "/id?hex=5B1402"
+        }
+    },
+    "_embedded": {}
+},
+{
+    "hex": {
+        "value": "#2D78C8",
+        "clean": "2D78C8"
+    },
+    "rgb": {
+        "fraction": {
+            "r": 0.17647058823529413,
+            "g": 0.47058823529411764,
+            "b": 0.7843137254901961
+        },
+        "r": 45,
+        "g": 120,
+        "b": 200,
+        "value": "rgb(45, 120, 200)"
+    },
+    "hsl": {
+        "fraction": {
+            "h": 0.5860215053763439,
+            "s": 0.6326530612244897,
+            "l": 0.4803921568627451
+        },
+        "h": 211,
+        "s": 63,
+        "l": 48,
+        "value": "hsl(211, 63%, 48%)"
+    },
+    "hsv": {
+        "fraction": {
+            "h": 0.5860215053763439,
+            "s": 0.7749999999999999,
+            "v": 0.7843137254901961
+        },
+        "value": "hsv(211, 77%, 78%)",
+        "h": 211,
+        "s": 77,
+        "v": 78
+    },
+    "name": {
+        "value": "Denim",
+        "closest_named_hex": "#2B6CC4",
+        "exact_match_name": false,
+        "distance": 198
+    },
+    "cmyk": {
+        "fraction": {
+            "c": 0.7749999999999999,
+            "m": 0.4,
+            "y": 0,
+            "k": 0.21568627450980393
+        },
+        "value": "cmyk(77, 40, 0, 22)",
+        "c": 77,
+        "m": 40,
+        "y": 0,
+        "k": 22
+    },
+    "XYZ": {
+        "fraction": {
+            "X": 0.3826274509803922,
+            "Y": 0.43070980392156866,
+            "Z": 0.8049901960784314
+        },
+        "value": "XYZ(38, 43, 80)",
+        "X": 38,
+        "Y": 43,
+        "Z": 80
+    },
+    "image": {
+        "bare": "http://www.thecolorapi.com/id?format=svg&named=false&hex=2D78C8",
+        "named": "http://www.thecolorapi.com/id?format=svg&hex=2D78C8"
+    },
+    "contrast": {
+        "value": "#000000"
+    },
+    "_links": {
+        "self": {
+            "href": "/id?hex=2D78C8"
+        }
+    },
+    "_embedded": {}
+},
+{
+    "hex": {
+        "value": "#C81EC8",
+        "clean": "C81EC8"
+    },
+    "rgb": {
+        "fraction": {
+            "r": 0.7843137254901961,
+            "g": 0.11764705882352941,
+            "b": 0.7843137254901961
+        },
+        "r": 200,
+        "g": 30,
+        "b": 200,
+        "value": "rgb(200, 30, 200)"
+    },
+    "hsl": {
+        "fraction": {
+            "h": 0.8333333333333334,
+            "s": 0.7391304347826086,
+            "l": 0.45098039215686275
+        },
+        "h": 300,
+        "s": 74,
+        "l": 45,
+        "value": "hsl(300, 74%, 45%)"
+    },
+    "hsv": {
+        "fraction": {
+            "h": 0.8333333333333334,
+            "s": 0.85,
+            "v": 0.7843137254901961
+        },
+        "value": "hsv(300, 85%, 78%)",
+        "h": 300,
+        "s": 85,
+        "v": 78
+    },
+    "name": {
+        "value": "Frostbite",
+        "closest_named_hex": "#E936A7",
+        "exact_match_name": false,
+        "distance": 5346
+    },
+    "cmyk": {
+        "fraction": {
+            "c": 0,
+            "m": 0.85,
+            "y": 0,
+            "k": 0.21568627450980393
+        },
+        "value": "cmyk(0, 85, 0, 22)",
+        "c": 0,
+        "m": 85,
+        "y": 0,
+        "k": 22
+    },
+    "XYZ": {
+        "fraction": {
+            "X": 0.5070901960784314,
+            "Y": 0.3075137254901961,
+            "Z": 0.7746509803921569
+        },
+        "value": "XYZ(51, 31, 77)",
+        "X": 51,
+        "Y": 31,
+        "Z": 77
+    },
+    "image": {
+        "bare": "http://www.thecolorapi.com/id?format=svg&named=false&hex=C81EC8",
+        "named": "http://www.thecolorapi.com/id?format=svg&hex=C81EC8"
+    },
+    "contrast": {
+        "value": "#000000"
+    },
+    "_links": {
+        "self": {
+            "href": "/id?hex=C81EC8"
+        }
+    },
+    "_embedded": {}
 }
+]

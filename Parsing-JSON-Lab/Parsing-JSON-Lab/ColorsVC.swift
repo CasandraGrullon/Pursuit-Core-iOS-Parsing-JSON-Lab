@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ColorsVC.swift
 //  Parsing-JSON-Lab
 //
 //  Created by casandra grullon on 11/25/19.
@@ -8,13 +8,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ColorsVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
     }
 
 
 }
-
