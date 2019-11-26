@@ -1,4 +1,5 @@
-[{
+{
+    "results": [{
   "hex": {
     "value": "#0047AB",
     "clean": "0047AB"
@@ -491,3 +492,4 @@
     "_embedded": {}
 }
 ]
+}
