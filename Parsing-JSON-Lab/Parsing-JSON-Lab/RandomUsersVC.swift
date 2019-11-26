@@ -10,6 +10,10 @@ import UIKit
 
 class RandomUsersVC: UIViewController {
 
+    @IBOutlet weak var tableView: UITableView!
+    
+    var randomUsers = [RandomUser]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

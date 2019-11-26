@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C60D38E5238D71C8001608D7 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60D38E4238D71C8001608D7 /* Color.swift */; };
+		C60D38E9238DA0EB001608D7 /* RandomUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60D38E8238DA0EB001608D7 /* RandomUser.swift */; };
 		C6F7F2C5238C8C0F001844AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F7F2C4238C8C0F001844AC /* AppDelegate.swift */; };
 		C6F7F2C7238C8C0F001844AC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F7F2C6238C8C0F001844AC /* SceneDelegate.swift */; };
 		C6F7F2C9238C8C0F001844AC /* WeatherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F7F2C8238C8C0F001844AC /* WeatherVC.swift */; };
@@ -24,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		C60D38E4238D71C8001608D7 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		C60D38E8238DA0EB001608D7 /* RandomUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUser.swift; sourceTree = "<group>"; };
 		C6F7F2C1238C8C0F001844AC /* Parsing-JSON-Lab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Parsing-JSON-Lab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6F7F2C4238C8C0F001844AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6F7F2C6238C8C0F001844AC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				C60D38E4238D71C8001608D7 /* Color.swift */,
 				C6F7F2DA238C8C47001844AC /* colorsData.json */,
 				C6F7F2E0238C8E42001844AC /* RandomUsersVC.swift */,
+				C60D38E8238DA0EB001608D7 /* RandomUser.swift */,
 				C6F7F2DC238C8D1D001844AC /* randomUsersData.json */,
 				C6F7F2CA238C8C0F001844AC /* Main.storyboard */,
 				C6F7F2CD238C8C10001844AC /* Assets.xcassets */,
@@ -165,6 +168,7 @@
 				C6F7F2DF238C8E25001844AC /* ColorsVC.swift in Sources */,
 				C6F7F2C9238C8C0F001844AC /* WeatherVC.swift in Sources */,
 				C60D38E5238D71C8001608D7 /* Color.swift in Sources */,
+				C60D38E9238DA0EB001608D7 /* RandomUser.swift in Sources */,
 				C6F7F2E1238C8E42001844AC /* RandomUsersVC.swift in Sources */,
 				C6F7F2C5238C8C0F001844AC /* AppDelegate.swift in Sources */,
 				C6F7F2E3238C939D001844AC /* Weather.swift in Sources */,
