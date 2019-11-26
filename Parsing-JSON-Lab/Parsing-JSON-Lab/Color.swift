@@ -14,8 +14,18 @@ struct ColorsData: Codable {
 
 struct Color: Codable {
     var hex: [String: String]
-    var name: [String: String]
-    var rgb: [String: Double]
+    var name: ColorName
+    var rgb: RGB
+}
+
+struct ColorName: Codable {
+    var value: String
+}
+
+struct RGB: Codable {
+    var r: Double
+    var g: Double
+    var b: Double
 }
 
 extension ColorsData {
