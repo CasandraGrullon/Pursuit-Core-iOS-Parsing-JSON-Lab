@@ -16,10 +16,31 @@ class RandomUsersVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        tableView.dataSource = self
+        loadData()
+        
     }
     
+    func loadData() {
+        randomUsers = RandomUserData.getUsers()
+    }
+}
 
-
-
+extension RandomUsersVC: UITableViewDataSource {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return randomUsers.count
+    }
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "userCell", for: indexPath)
+        
+        let user = randomUsers[indexPath.row]
+        
+        let userFirstName = user.name["first"] ?? ""
+        let userLastName = user.name["last"] ?? ""
+        
+        cell.textLabel?.text = ("\(userFirstName) \(userLastName)")
+        cell.detailTextLabel?.text = user.email
+        
+        return cell
+    }
 }
