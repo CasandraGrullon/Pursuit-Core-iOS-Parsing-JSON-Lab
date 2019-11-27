@@ -14,18 +14,20 @@ struct RandomUserData: Codable {
 
 struct RandomUser: Codable {
     var name: [String:String]
-    var location: [Address]
+    var location: Address
     var phone: String
     var dob: DOB
     var email: String
 }
 
 struct Address: Codable {
-    var number: Int
-    var name: String
+    var street: Street
     var city: String
     var country: String
-    var postcode: Int
+}
+struct Street: Codable {
+    var number: Int
+    var name: String
 }
 
 struct DOB: Codable {
@@ -45,7 +47,7 @@ extension RandomUserData {
             let userData = try JSONDecoder().decode(RandomUserData.self, from: data)
             user = userData.results
         } catch {
-            fatalError("issue in do catch")
+            print("issue in do catch \(error)")
         }
         
         return user

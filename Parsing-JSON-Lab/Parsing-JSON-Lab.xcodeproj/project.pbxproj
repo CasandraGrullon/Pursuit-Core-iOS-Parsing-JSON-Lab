@@ -59,6 +59,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C60DDB91238ECE2C00B9CD41 /* weather */ = {
+			isa = PBXGroup;
+			children = (
+				C6F7F2D8238C8C20001844AC /* weatherData.json */,
+				C6F7F2E2238C939D001844AC /* WeatherInfo.swift */,
+				C6F7F2C8238C8C0F001844AC /* WeatherVC.swift */,
+				C60D38EC238DDB90001608D7 /* WeatherDetailVC.swift */,
+			);
+			path = weather;
+			sourceTree = "<group>";
+		};
+		C60DDB92238ECE5100B9CD41 /* colors */ = {
+			isa = PBXGroup;
+			children = (
+				C6F7F2DA238C8C47001844AC /* colorsData.json */,
+				C60D38E4238D71C8001608D7 /* Color.swift */,
+				C6F7F2DE238C8E25001844AC /* ColorsVC.swift */,
+				C60D38EE238DE66B001608D7 /* ColorDetailVC.swift */,
+			);
+			path = colors;
+			sourceTree = "<group>";
+		};
+		C60DDB93238ECE6400B9CD41 /* randomUsers */ = {
+			isa = PBXGroup;
+			children = (
+				C6F7F2DC238C8D1D001844AC /* randomUsersData.json */,
+				C60D38E8238DA0EB001608D7 /* RandomUser.swift */,
+				C6F7F2E0238C8E42001844AC /* RandomUsersVC.swift */,
+				C60D38F0238E2112001608D7 /* RandomUserDetailVC.swift */,
+			);
+			path = randomUsers;
+			sourceTree = "<group>";
+		};
 		C6F7F2B8238C8C0F001844AC = {
 			isa = PBXGroup;
 			children = (
@@ -80,18 +113,9 @@
 			children = (
 				C6F7F2C4238C8C0F001844AC /* AppDelegate.swift */,
 				C6F7F2C6238C8C0F001844AC /* SceneDelegate.swift */,
-				C6F7F2D8238C8C20001844AC /* weatherData.json */,
-				C6F7F2E2238C939D001844AC /* WeatherInfo.swift */,
-				C6F7F2C8238C8C0F001844AC /* WeatherVC.swift */,
-				C60D38EC238DDB90001608D7 /* WeatherDetailVC.swift */,
-				C6F7F2DA238C8C47001844AC /* colorsData.json */,
-				C60D38E4238D71C8001608D7 /* Color.swift */,
-				C6F7F2DE238C8E25001844AC /* ColorsVC.swift */,
-				C60D38EE238DE66B001608D7 /* ColorDetailVC.swift */,
-				C6F7F2DC238C8D1D001844AC /* randomUsersData.json */,
-				C60D38E8238DA0EB001608D7 /* RandomUser.swift */,
-				C6F7F2E0238C8E42001844AC /* RandomUsersVC.swift */,
-				C60D38F0238E2112001608D7 /* RandomUserDetailVC.swift */,
+				C60DDB91238ECE2C00B9CD41 /* weather */,
+				C60DDB92238ECE5100B9CD41 /* colors */,
+				C60DDB93238ECE6400B9CD41 /* randomUsers */,
 				C6F7F2CA238C8C0F001844AC /* Main.storyboard */,
 				C6F7F2CD238C8C10001844AC /* Assets.xcassets */,
 				C6F7F2CF238C8C10001844AC /* LaunchScreen.storyboard */,

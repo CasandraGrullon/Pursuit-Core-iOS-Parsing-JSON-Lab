@@ -28,12 +28,15 @@ class ColorDetailVC: UIViewController {
         guard let info = colorsInfo else{
             fatalError("colorsInfo is empty")
         }
-        
-        colorView.backgroundColor = UIColor(red: CGFloat(info.rgb.r), green: CGFloat(info.rgb.g), blue: CGFloat(info.rgb.b), alpha: 1)
-        hexValueLabel.text = info.hex["value"]
-        redValueLabel.text = info.rgb.r.description
-        greenValueLabel.text = info.rgb.g.description
-        blueValueLabel.text = info.rgb.b.description
+        let red = CGFloat(info.rgb.r / 255)
+        let green = CGFloat(info.rgb.g / 255)
+        let blue = CGFloat(info.rgb.b / 255)
+        let hexValue = info.hex["value"] ?? ""
+        colorView.backgroundColor = UIColor(red: red, green: green, blue: blue, alpha: 1)
+        hexValueLabel.text = "hex value: \(hexValue)"
+        redValueLabel.text = "red value: \(info.rgb.r.description)"
+        greenValueLabel.text = "green value: \(info.rgb.g.description)"
+        blueValueLabel.text = "blue value: \(info.rgb.b.description)"
     }
 
 }

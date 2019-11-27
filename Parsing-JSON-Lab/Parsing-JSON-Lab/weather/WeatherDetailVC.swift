@@ -26,8 +26,8 @@ class WeatherDetailVC: UIViewController {
             fatalError("weatherData is empty")
         }
         navigationItem.title = weather.name
-        let temp = weather.main["temp"]
-        currentTempLabel.text = temp?.description
+        let temp = String(format: "%.0f", weather.main["temp"] ?? 1.0)
+        currentTempLabel.text = "\(temp.description) C"
         let currentWeather = weather.weather.first?.description
         currentWeatherLabel.text = currentWeather
         

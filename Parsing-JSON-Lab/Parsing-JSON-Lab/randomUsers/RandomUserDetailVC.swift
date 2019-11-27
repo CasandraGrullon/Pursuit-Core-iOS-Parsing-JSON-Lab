@@ -18,7 +18,7 @@ class RandomUserDetailVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        updatePage()
     }
     
     func updatePage(){
@@ -26,7 +26,9 @@ class RandomUserDetailVC: UIViewController {
             fatalError("issue")
         }
         
-        addressLabel.text = ""
+        let fullAddress = "\(user.location.street.number) \(user.location.street.name) \(user.location.city), \(user.location.country)"
+        
+        addressLabel.text = fullAddress
         phoneNumberLabel.text = user.phone
         birthdayLabel.text = user.dob.date
         

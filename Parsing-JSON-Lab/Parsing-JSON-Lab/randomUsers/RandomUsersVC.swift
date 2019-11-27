@@ -18,13 +18,20 @@ class RandomUsersVC: UIViewController {
         super.viewDidLoad()
         tableView.dataSource = self
         loadData()
-        
     }
     
     func loadData() {
         randomUsers = RandomUserData.getUsers()
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let randomUserDetail = segue.destination as? RandomUserDetailVC, let indexPath = tableView.indexPathForSelectedRow else {
+            fatalError("segue issues")
+        }
+        randomUserDetail.randomUser = randomUsers[indexPath.row]
+    }
 }
+
 
 extension RandomUsersVC: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -37,8 +44,9 @@ extension RandomUsersVC: UITableViewDataSource {
         
         let userFirstName = user.name["first"] ?? ""
         let userLastName = user.name["last"] ?? ""
+        let fullName = ("\(userFirstName) \(userLastName)")
         
-        cell.textLabel?.text = ("\(userFirstName) \(userLastName)")
+        cell.textLabel?.text = fullName
         cell.detailTextLabel?.text = user.email
         
         return cell

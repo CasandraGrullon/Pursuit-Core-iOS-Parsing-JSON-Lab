@@ -41,7 +41,7 @@
         },
         {
             "id": 2208425,
-            "name": "Zuwarah",
+            "name": "Medellin",
             "coord": {
                 "lon": 12.08199,
                 "lat": 32.931198
@@ -74,7 +74,7 @@
         },
         {
             "id": 2212771,
-            "name": "Sabratah",
+            "name": "New York City",
             "coord": {
                 "lon": 12.48845,
                 "lat": 32.79335
@@ -107,7 +107,7 @@
         },
         {
             "id": 2217362,
-            "name": "Gharyan",
+            "name": "Santo Domingo",
             "coord": {
                 "lon": 13.02028,
                 "lat": 32.172218
@@ -143,7 +143,7 @@
         },
         {
             "id": 2216885,
-            "name": "Zawiya",
+            "name": "Fuzhou",
             "coord": {
                 "lon": 12.72778,
                 "lat": 32.75222
@@ -174,7 +174,7 @@
         },
         {
             "id": 2210247,
-            "name": "Tripoli",
+            "name": "Nanping",
             "coord": {
                 "lon": 13.18746,
                 "lat": 32.875191
@@ -197,15 +197,15 @@
             "weather": [
                 {
                     "id": 802,
-                    "main": "Clouds",
-                    "description": "scattered clouds",
+                    "main": "Sunny",
+                    "description": "sunny",
                     "icon": "03d"
                 }
             ]
         },
         {
             "id": 2210221,
-            "name": "Tarhuna",
+            "name": "Pereira",
             "coord": {
                 "lon": 13.6332,
                 "lat": 32.43502
@@ -236,7 +236,7 @@
         },
         {
             "id": 2215163,
-            "name": "Masallatah",
+            "name": "Suffolk",
             "coord": {
                 "lon": 14,
                 "lat": 32.616669
@@ -272,7 +272,7 @@
         },
         {
             "id": 2219905,
-            "name": "Al Khums",
+            "name": "Toronto",
             "coord": {
                 "lon": 14.26191,
                 "lat": 32.648609
@@ -305,7 +305,7 @@
         },
         {
             "id": 2208485,
-            "name": "Zlitan",
+            "name": "Los Angeles",
             "coord": {
                 "lon": 14.56874,
                 "lat": 32.467381
@@ -338,7 +338,7 @@
         },
         {
             "id": 2563191,
-            "name": "Birkirkara",
+            "name": "Hong Kong",
             "coord": {
                 "lon": 14.46111,
                 "lat": 35.897221

@@ -326,7 +326,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="FhC-PC-RgF" kind="show" id="Q2a-le-Bp0"/>
+                                            <segue destination="FhC-PC-RgF" kind="show" id="pBc-qw-Jir"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
