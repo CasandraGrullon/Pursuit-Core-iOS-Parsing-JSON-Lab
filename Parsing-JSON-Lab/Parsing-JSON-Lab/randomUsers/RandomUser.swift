@@ -18,6 +18,7 @@ struct RandomUser: Codable {
     var phone: String
     var dob: DOB
     var email: String
+    var picture: Picture
 }
 
 struct Address: Codable {
@@ -33,6 +34,10 @@ struct Street: Codable {
 struct DOB: Codable {
     var date: String
 }
+struct Picture: Codable{
+    var medium: String
+}
+
 
 extension RandomUserData {
     static func getUsers() -> [RandomUser] {
