@@ -24,6 +24,12 @@ class ColorsVC: UIViewController {
         colors = ColorsData.getColors()
     }
 
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let colorDetailVC = segue.destination as? ColorDetailVC, let indexPath = tableView.indexPathForSelectedRow else{
+            fatalError("issues with segue")
+        }
+        colorDetailVC.colorsInfo = colors[indexPath.row]
+    }
 
 }
 

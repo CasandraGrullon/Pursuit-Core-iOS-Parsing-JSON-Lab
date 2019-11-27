@@ -12,7 +12,7 @@ class WeatherVC: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
     
-    var weather = [Weather]()
+    var weather = [WeatherInfo]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,6 +23,14 @@ class WeatherVC: UIViewController {
     func loadData(){
         weather = WeatherData.currentWeather()
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let weatherDetails = segue.destination as? WeatherDetailVC, let indexPath = tableView.indexPathForSelectedRow else {
+            fatalError("segue connection busted...")
+        }
+        let selectedWeather = weather[indexPath.row]
+        weatherDetails.weatherData = selectedWeather
+    }
 }
 extension WeatherVC: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -30,9 +38,8 @@ extension WeatherVC: UITableViewDataSource {
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "weatherCell", for: indexPath)
-        var cityTemp = weather[indexPath.row]
+        let cityTemp = weather[indexPath.row]
         cell.textLabel?.text = cityTemp.name
-        
         
         return cell
     }

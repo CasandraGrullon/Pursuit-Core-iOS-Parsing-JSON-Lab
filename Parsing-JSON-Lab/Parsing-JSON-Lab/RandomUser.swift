@@ -14,29 +14,23 @@ struct RandomUserData: Codable {
 
 struct RandomUser: Codable {
     var name: [String:String]
-    //var fullAddress: Address
-    //var phoneNumber: PhoneNumber
-    //var birthday: DOB
+    var location: [Address]
+    var phone: String
+    var dob: DOB
     var email: String
 }
-//struct Name: Codable {
-//    var first: String
-//    var last: String
-//}
-//struct Address: Codable {
-//    var streetNumber: Int
-//    var streetName: String
-//    var city: String
-//    var state: String
-//    var country: String
-//    var postcode: Int
-//}
-//struct PhoneNumber: Codable {
-//    var phone: String
-//}
-//struct DOB: Codable {
-//    var dob: String
-//}
+
+struct Address: Codable {
+    var number: Int
+    var name: String
+    var city: String
+    var country: String
+    var postcode: Int
+}
+
+struct DOB: Codable {
+    var date: String
+}
 
 extension RandomUserData {
     static func getUsers() -> [RandomUser] {

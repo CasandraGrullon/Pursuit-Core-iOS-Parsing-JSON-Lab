@@ -9,18 +9,22 @@
 import Foundation
 
 struct WeatherData: Codable {
-    let list: [Weather]
+    let list: [WeatherInfo]
+}
+
+struct WeatherInfo: Codable {
+    var name: String
+    var temp: Double
+    var weather: Weather
 }
 
 struct Weather: Codable {
-    var name: String
-    var main: [String : Double]
-//    var weather: [[String : Any]]
+    var description: String
 }
 
 extension WeatherData {
-    static func currentWeather() -> [Weather] {
-        var weather = [Weather]()
+    static func currentWeather() -> [WeatherInfo] {
+        var weather = [WeatherInfo]()
         
         guard let fileURL = Bundle.main.url(forResource: "weatherData", withExtension: "json") else {
             fatalError("url issues")
@@ -33,6 +37,8 @@ extension WeatherData {
         } catch {
             fatalError("\(error)")
         }
+        
         return weather
     }
+    
 }
