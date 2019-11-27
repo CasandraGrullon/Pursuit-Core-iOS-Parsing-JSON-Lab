@@ -14,12 +14,15 @@ struct WeatherData: Codable {
 
 struct WeatherInfo: Codable {
     var name: String
-    var temp: Double
-    var weather: Weather
+    var main: [String: Double]
+    var weather: [Weather]
 }
 
 struct Weather: Codable {
+    var id: Int
+    var main: String
     var description: String
+    var icon: String
 }
 
 extension WeatherData {
@@ -35,7 +38,7 @@ extension WeatherData {
             let weatherResults = try JSONDecoder().decode(WeatherData.self, from: data)
             weather = weatherResults.list
         } catch {
-            fatalError("\(error)")
+            print("\(error)")
         }
         
         return weather

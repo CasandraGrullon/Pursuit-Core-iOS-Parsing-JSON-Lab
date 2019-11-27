@@ -26,9 +26,10 @@ class WeatherDetailVC: UIViewController {
             fatalError("weatherData is empty")
         }
         navigationItem.title = weather.name
-        currentTempLabel.text = weather.temp.description
-        
-        currentWeatherLabel.text = weather.weather.description
+        let temp = weather.main["temp"]
+        currentTempLabel.text = temp?.description
+        let currentWeather = weather.weather.first?.description
+        currentWeatherLabel.text = currentWeather
         
         if weather.weather.description.contains("clouds") {
             weatherImageView.image = UIImage(systemName: "cloud.sun.fill")

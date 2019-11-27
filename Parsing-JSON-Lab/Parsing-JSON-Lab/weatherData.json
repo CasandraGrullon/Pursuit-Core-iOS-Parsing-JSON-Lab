@@ -396,8 +396,8 @@
             "weather": [
                 {
                     "id": 801,
-                    "main": "Clouds",
-                    "description": "few clouds",
+                    "main": "Sunny",
+                    "description": "sunny",
                     "icon": "02d"
                 }
             ]
@@ -429,8 +429,8 @@
             "weather": [
                 {
                     "id": 801,
-                    "main": "Clouds",
-                    "description": "few clouds",
+                    "main": "Rain",
+                    "description": "light rain",
                     "icon": "02d"
                 }
             ]
@@ -460,8 +460,8 @@
             "weather": [
                 {
                     "id": 802,
-                    "main": "Clouds",
-                    "description": "scattered clouds",
+                    "main": "Rain",
+                    "description": "heavy rain",
                     "icon": "03d"
                 }
             ]
@@ -491,7 +491,7 @@
             "weather": [
                 {
                     "id": 802,
-                    "main": "Clouds",
+                    "main": "Sunny",
                     "description": "sunny",
                     "icon": "03d"
                 }

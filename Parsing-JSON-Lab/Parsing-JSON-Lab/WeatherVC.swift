@@ -28,8 +28,7 @@ class WeatherVC: UIViewController {
         guard let weatherDetails = segue.destination as? WeatherDetailVC, let indexPath = tableView.indexPathForSelectedRow else {
             fatalError("segue connection busted...")
         }
-        let selectedWeather = weather[indexPath.row]
-        weatherDetails.weatherData = selectedWeather
+        weatherDetails.weatherData = weather[indexPath.row]
     }
 }
 extension WeatherVC: UITableViewDataSource {
@@ -38,8 +37,8 @@ extension WeatherVC: UITableViewDataSource {
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "weatherCell", for: indexPath)
-        let cityTemp = weather[indexPath.row]
-        cell.textLabel?.text = cityTemp.name
+        let city = weather[indexPath.row]
+        cell.textLabel?.text = city.name
         
         return cell
     }
